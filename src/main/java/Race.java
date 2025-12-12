@@ -1,6 +1,5 @@
 public class Race {
-    // Func that gets array of cars and decides which one is the fastest then returns the name of it
-    public static String FastestCar(Car[] cars) {
+    public static String fastestCar(Car[] cars) {
         String fastestName = "";
         int maxSpeed = 0;
 
